@@ -1,0 +1,17 @@
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\bin\Debug\net8.0\StoriesAPI.Service.deps.json
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\bin\Debug\net8.0\StoriesAPI.Service.runtimeconfig.json
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\bin\Debug\net8.0\StoriesAPI.Service.dll
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\bin\Debug\net8.0\StoriesAPI.Service.pdb
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\bin\Debug\net8.0\StoriesAPI.Infrastructure.dll
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\bin\Debug\net8.0\StoriesAPI.Infrastructure.pdb
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\obj\Debug\net8.0\StoriesAPI.Service.csproj.AssemblyReference.cache
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\obj\Debug\net8.0\StoriesAPI.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\obj\Debug\net8.0\StoriesAPI.Service.AssemblyInfoInputs.cache
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\obj\Debug\net8.0\StoriesAPI.Service.AssemblyInfo.cs
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\obj\Debug\net8.0\StoriesAPI.Service.csproj.CoreCompileInputs.cache
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\obj\Debug\net8.0\StoriesAPI.Service.csproj.CopyComplete
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\obj\Debug\net8.0\StoriesAPI.Service.dll
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\obj\Debug\net8.0\refint\StoriesAPI.Service.dll
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\obj\Debug\net8.0\StoriesAPI.Service.pdb
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\obj\Debug\net8.0\StoriesAPI.Service.genruntimeconfig.cache
+C:\dev\Treinamentos\StoriesProject\StoriesAPI\StoriesAPI.Service\obj\Debug\net8.0\ref\StoriesAPI.Service.dll
