@@ -8,7 +8,7 @@
     <p>{{storyDescription}}</p>
     <hr>
     <div class="btnLike">
-        <button mat-raised-button color="accent">Like</button>
-        <button mat-raised-button color="accent">Dislike</button>
+        <button mat-raised-button color="accent" (click)="addVote(true)">Like</button>
+        <button mat-raised-button color="accent" (click)="addVote(false)">Dislike</button>
     </div>
 </div>

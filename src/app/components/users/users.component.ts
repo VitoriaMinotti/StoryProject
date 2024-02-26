@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { User } from '../../models/user';
 import { UsersService } from '../../services/user/users.service';
 
@@ -11,6 +11,7 @@ export class UsersComponent {
   user = {} as User;
   users!: User[];
   visible: boolean = false;
+  @Output() userId: EventEmitter<number> = new EventEmitter<number>()
 
   constructor(private usersService: UsersService) {
     this.getUser()
@@ -22,4 +23,7 @@ export class UsersComponent {
     })
   }
 
+  showUser(id: number) {
+    this.userId.emit(id)
+  }
 }

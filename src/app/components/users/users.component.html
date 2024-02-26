@@ -2,7 +2,7 @@
   <mat-form-field>
     <mat-label>Select an User</mat-label>
     <mat-select disableRipple>
-      <mat-option *ngFor="let user of users" value="{{user.id}}">{{user.name}}</mat-option>
+      <mat-option *ngFor="let user of users" (onSelectionChange)="showUser(user.id)" [value]="user.id">{{user.name}}</mat-option>
     </mat-select>
   </mat-form-field>
 </div>

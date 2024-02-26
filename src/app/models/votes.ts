@@ -1,6 +1,6 @@
 export interface Votes {
     id: number;
-    like: boolean;
-    storyId: number;
-    userID: number;
+    Like: boolean;
+    UserID: number;
+    StoryID: number;
 }

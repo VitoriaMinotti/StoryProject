@@ -6,9 +6,6 @@ import { DialogCreateComponent } from './components/dialog-create/dialog-create.
 import { BehaviorSubject } from 'rxjs';
 import { StoryUpdate } from './models/story-update';
 import { StoryCreate } from './models/story-create';
-import { Votes } from './models/votes';
-import { VotesService } from './services/vote/votes.service';
-
 
 @Component({
   selector: 'app-root',
@@ -17,10 +14,10 @@ import { VotesService } from './services/vote/votes.service';
 })
 export class AppComponent {
   stories: Story[] = []
-  votes!: Votes[];
+  userId: number = 0
   storiesSubject: BehaviorSubject<Story[]> = new BehaviorSubject<Story[]>([])
 
-  constructor(private storyService: StoryService, public dialog: MatDialog, private voteService: VotesService){
+  constructor(private storyService: StoryService, public dialog: MatDialog){
     this.getAllStories();
   }
 
@@ -59,15 +56,7 @@ export class AppComponent {
     })
   }
 
-  getVotes() {
-    this.voteService.getVotes().subscribe((data: Votes[]) => {
-      this.votes = data;
-    });
-  }
- 
-  addVote(like: boolean, storyId : number, userID: string) {
-    this.voteService.addVote(like, storyId, userID).subscribe(response => {
-      this.getAllStories();
-    });
+  getUserId(userId: number){
+    this.userId = userId
   }
 }

@@ -1,5 +1,5 @@
 <app-header></app-header>
-<app-users></app-users>
+<app-users (userId)="getUserId($event)"></app-users>
 
 <div class="btnAdd">
   <span>Add a new Story</span>
@@ -8,6 +8,6 @@
 
 <div class="cards">
   @for (story of stories; track $index) {
-    <app-cards (storyToUpdate)="update($event)" (storyToDelete)="delete($event)" [storyId]="story.id" [storyTitle]="story.title" [storyDescription]="story.description" [storyDepartment]="story.department"></app-cards>
+    <app-cards (storyToUpdate)="update($event)" (storyToDelete)="delete($event)" [storyId]="story.id" [storyTitle]="story.title" [userId]="userId" [storyDescription]="story.description" [storyDepartment]="story.department"></app-cards>
   }
 </div>
