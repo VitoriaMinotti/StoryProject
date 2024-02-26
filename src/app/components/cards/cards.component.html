@@ -1,0 +1,14 @@
+<div class="cardComponent">
+    <div class="btn">
+        <button mat-mini-fab color="accent" (click)="showUpdateDialog()"><mat-icon>edit</mat-icon></button>
+        <button mat-mini-fab color="accent" (click)="delete(storyId)"><mat-icon>delete</mat-icon></button>
+    </div>
+    <h1>{{storyTitle}}</h1>
+    <p>{{storyDepartment}}</p>
+    <p>{{storyDescription}}</p>
+    <hr>
+    <div class="btnLike">
+        <button mat-raised-button color="accent">Like</button>
+        <button mat-raised-button color="accent">Dislike</button>
+    </div>
+</div>

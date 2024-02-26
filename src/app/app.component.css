@@ -1,0 +1,12 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Quatro cartões por linha */
+    gap: 1em;
+    padding: 1rem;
+}
+.btnAdd{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+}
